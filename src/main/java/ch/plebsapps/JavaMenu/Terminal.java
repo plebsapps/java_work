@@ -1,4 +1,4 @@
-package JavaMenu;
+package ch.plebsapps.JavaMenu;
 
 import java.io.*;
 import java.util.*;

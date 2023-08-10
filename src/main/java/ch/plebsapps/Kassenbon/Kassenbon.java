@@ -1,4 +1,4 @@
-package Kassenbon;
+package ch.plebsapps.Kassenbon;
 
 public class Kassenbon {
 	public static void main(String[] args){
