@@ -9,5 +9,5 @@ Java Work ist ein sammlung von Java Aufgaben gestartet von EASY EASY zu ...
 ## JavaMenu
 
 [JavaMenu](https://wiki.freitagsrunde.org/Javakurs/%C3%9Cbungsaufgaben/Javamenue)
-Weitere Details finden Sie in der [JavaMenu.java](src/ch/example/JavaMenu/JavaMenu.java).
+Weitere Details finden Sie in der [JavaMenu Klasse](src/main/java/ch/plebsapps/JavaMenu/JavaMenu.java).
 
