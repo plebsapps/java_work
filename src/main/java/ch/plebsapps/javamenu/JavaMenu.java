@@ -1,4 +1,4 @@
-package ch.plebsapps.JavaMenu;
+package ch.plebsapps.javamenu;
 
 public class JavaMenu {
 

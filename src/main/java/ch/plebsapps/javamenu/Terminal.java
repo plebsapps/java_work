@@ -1,4 +1,4 @@
-package ch.plebsapps.JavaMenu;
+package ch.plebsapps.javamenu;
 
 import java.io.*;
 import java.util.*;
@@ -10,6 +10,7 @@ import java.util.*;
  *	@version 1.1
  ************************************************************************/
 
+@SuppressWarnings("ALL")
 public class Terminal {
 
     /****************************************************************
