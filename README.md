@@ -13,3 +13,8 @@ Die Lösung ist zu finden unter [Kassenbon](src/main/java/ch/plebsapps/kassenbon
 [JavaMenu](https://wiki.freitagsrunde.org/Javakurs/%C3%9Cbungsaufgaben/Javamenue)
 Die Lösung ist zu finden unter [JavaMenu](src/main/java/ch/plebsapps/javamenu/JavaMenu.java).
 Die dazugehörige Klasse Terminal unter [Terminal](src/main/java/ch/plebsapps/javamenu/Terminal.java).
+
+## Verschachtelte Schleifen
+
+[Verschachtelte Schleifen](https://wiki.freitagsrunde.org/Javakurs/%C3%9Cbungsaufgaben/Verschachtelte_Schleifen)
+Die lösung dazu ist zu finden unter [VerschachtelteSchleifen](src/main/java/ch/plebsapps/verschachtelteschleifen/VerschachtelteSchleifen.java)
