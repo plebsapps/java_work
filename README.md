@@ -22,3 +22,9 @@ Die Lösung zu dieser Aufgabe ist zu finden unter:[VerschachtelteSchleifen](src/
 ## Primzahlenfinder 
 [Primzahlfinder](https://wiki.freitagsrunde.org/Javakurs/%C3%9Cbungsaufgaben/Primzahlenaufgabe)
 Die Lösung zu dieser Aufgabe ist zu finden unter:[Prim](src/main/java/ch/plebsapps/primzahlenfinder/Primzahl.java)
+
+
+# Operatoren
+
+## Kurzschluss
+
