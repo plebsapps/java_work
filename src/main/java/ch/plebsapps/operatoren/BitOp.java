@@ -1,6 +1,5 @@
 package ch.plebsapps.operatoren;
 
-import java.sql.SQLOutput;
 
 public class BitOp {
 
@@ -12,6 +11,14 @@ public class BitOp {
         System.out.println(Integer.toBinaryString(~i));
 
         //TODO
+/*
+        int a = true;
+
+        System.out.println(a);
+        a=~a;
+        System.out.println(~a);
+*/
+
 
         /*
 ~	~a	Komplement
@@ -36,7 +43,7 @@ result = a | b	7	0 0000000 00000000 00000000 00000111
 
         /*
 <<	a << b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach links verschoben wurden. Es wird mit 0 Bits aufgefüllt.
->>	a >> b	Wert des Ausdrucks sind die Bits von a  die um b Positionen nach rechts verschoben wurden. Es wird mit dem höchsten Bit aufgefüllt.
+>>	a >> b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach rechts verschoben wurden. Es wird mit dem höchsten Bit aufgefüllt.
 >>>	a >>> b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach rechts verschoben wurden. Es wird mit dem "0" Bits aufgefüllt.
          */
 
