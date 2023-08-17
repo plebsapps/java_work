@@ -4,6 +4,8 @@ public class ForCase {
 
     public static void main(String[] args) {
 
+        //TODO
+
         //Allgemein
         // for(Deklarieren und Initialisieren ; Bedingung ; Modifikation )
 
@@ -13,7 +15,6 @@ public class ForCase {
             .... Anweisungen ...
         }
         */
-
 
         //Eine For-Schleife ist vergleichbar mit der While schleife das heist es ist auch eine abweisende schleife die 0 mal durchlaufen.
         for (int i = 1; i <= 0 ; i++) {

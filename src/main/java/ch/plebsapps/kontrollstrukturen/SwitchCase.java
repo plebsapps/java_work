@@ -53,8 +53,5 @@ public class SwitchCase {
             default -> "Unbekannter ausdruck";
         };
         System.out.println(ergebnis);
-
-
-
-    }
+   }
 }
