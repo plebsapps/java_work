@@ -27,7 +27,5 @@ public class SwitchCase {
             }
             default -> System.out.println("Etwas anderes = " + test);
         }
-
-
     }
 }
