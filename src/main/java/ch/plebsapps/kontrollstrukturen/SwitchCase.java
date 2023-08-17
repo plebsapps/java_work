@@ -27,5 +27,34 @@ public class SwitchCase {
             }
             default -> System.out.println("Etwas anderes = " + test);
         }
+
+        //Man kann ab Java 14 auch ein Switch-Case als  Ausdruck schreiben der z.B ein ergebnis zurück gibt
+        String s = "+";
+        String ergebnis = switch (s) {
+            case "+" -> "Plus";
+            case "-" -> "Minus";
+            case "*", "x" -> "Mal";
+            case "/" -> "Geteilt";
+            default -> "Unbekannter ausdruck";
+        };
+        System.out.println(ergebnis);
+
+
+        //Auch noch eine neuheit ist das yield schlüsselwort was man in einen block schreiben kann der die ausgabe angibt.
+        //yield heist so gut wie führt zu.
+        ergebnis = switch (s) {
+            case "+" -> "Plus";
+            case "-" -> {
+                System.out.println("Ohhh ein Minus");
+                yield "Minus";
+            }
+            case "*", "x" -> "Mal";
+            case "/" -> "Geteilt";
+            default -> "Unbekannter ausdruck";
+        };
+        System.out.println(ergebnis);
+
+
+
     }
 }
