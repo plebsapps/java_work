@@ -8,7 +8,6 @@ public class BitOp {
         int a = 0b101010;
         int b = 0b110101;
 
-
         //Anzeigen Binär von Logisch Komplementär
         System.out.println("\n\n~a Komplementär ");
         System.out.println("    a = " + format(a));
@@ -94,19 +93,10 @@ public class BitOp {
         System.out.println("     b = " + b );
         System.out.println("a >>> b = " + format(a >>> b) + " " + (a >>> b) + " <- ACHTUNG es wird aus dem Binär herausgeschoben" );
 
-
-        /*
-<<	a << b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach links verschoben wurden. Es wird mit 0 Bits aufgefüllt.
->>	a >> b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach rechts verschoben wurden. Es wird mit dem höchsten Bit aufgefüllt.
->>>	a >>> b	Wert des Ausdrucks sind die Bits von a die um b Positionen nach rechts verschoben wurden. Es wird mit dem "0" Bits aufgefüllt.
-         */
-
-
     }
 
     //Zeigt Integer als Binäre zahl mit führenden Nullen
     public static String format(int a){
         return String.format("%32s", Integer.toBinaryString(a)).replace(' ', '0' );
     }
-
 }
