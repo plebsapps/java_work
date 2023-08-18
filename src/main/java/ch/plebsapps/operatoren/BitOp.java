@@ -49,7 +49,6 @@ public class BitOp {
         System.out.println("     b = " + b );
         System.out.println("a << b = " + format(a << b) + " " + (a << b) + " <- ACHTUNG es wird aus dem Binär herausgeschoben" );
 
-        a = -8;
         b = 2;
 
         //Rechtsverschiebung mit Vorzeichen  >>
@@ -59,7 +58,6 @@ public class BitOp {
         System.out.println("a >> b = " + format(a >> b) + " " + (a >> b));
 
         a = 8;
-        b = 2;
 
         //Rechtsverschiebung mit Vorzeichen  >>
         System.out.println("\na  >>  b  links shift");
