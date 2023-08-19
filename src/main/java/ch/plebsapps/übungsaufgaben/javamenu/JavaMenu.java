@@ -1,4 +1,4 @@
-package ch.plebsapps.javamenu;
+package ch.plebsapps.übungsaufgaben.javamenu;
 
 public class JavaMenu {
 
