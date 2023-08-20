@@ -1,4 +1,4 @@
-package ch.plebsapps.übungsaufgaben.primzahlenfinder;
+package ch.plebsapps.uebungsaufgaben.primzahlenfinder;
 
 public class PrimzahlEasy {
 

@@ -1,4 +1,4 @@
-package ch.plebsapps.übungsaufgaben.javamenu;
+package ch.plebsapps.uebungsaufgaben.javamenu;
 
 import java.io.*;
 import java.util.*;

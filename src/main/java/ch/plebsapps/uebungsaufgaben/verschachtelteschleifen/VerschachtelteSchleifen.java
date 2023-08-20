@@ -1,4 +1,4 @@
-package ch.plebsapps.übungsaufgaben.verschachtelteschleifen;
+package ch.plebsapps.uebungsaufgaben.verschachtelteschleifen;
 
 public class VerschachtelteSchleifen {
 

@@ -1,4 +1,4 @@
-package ch.plebsapps.übungsaufgaben.primzahlenfinder;
+package ch.plebsapps.uebungsaufgaben.primzahlenfinder;
 
 /**
  * Als Primzahlen bezeichnet man alle natürlichen Zahlen,
