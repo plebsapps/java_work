@@ -29,8 +29,32 @@ Die Lösung zu dieser Aufgabe ist zu finden unter:[Prim](src/main/java/ch/plebsa
 Die Lösung zu dieser Aufgabe ist zu finden unter:[Wetterstation](src/main/java/ch/plebsapps/uebungsaufgaben/wetterstation/Wetterstation.java)
 
 
-
 # Operatoren
+  ## ArithmetischeOp
+    //TODO schreibe Klassen
+  ## AuswertereihenfolgeOp
+  ## BitOp
+  ## KonkatenationOp
+  ## KurzschlussOp
+  ## LogischeOp
+  ## PrafixPostfixOp
+  ## TenaererOp
+  ## UnaereOp
+  ## VerbundOp
+  ## VergeleichsOp
 
-## Kurzschluss
+
+# Kontrollstruckturen 
+  ## DoWhileCase
+  ## ForCase
+  ## ForeachCase
+  ## IfCase
+  ## SwitchCase
+  ## TenaererCase
+  ## WhileCase
+  ## WhileLoop
+
+# Objektorientierung
+  ##
+
 
