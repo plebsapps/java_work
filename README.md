@@ -1,6 +1,6 @@
 # Java Work
 
-Java Work ist ein sammlung von Java Aufgaben gestartet von EASY EASY zu ...
+Java Work ist ein Sammlung von Java Aufgaben, gestartet von EASY EASY zu ...
 
 ## Kassenbon
 
@@ -10,7 +10,7 @@ Die Lösung zu dieser Aufgabe ist zu finden unter:[Kassenbon](src/main/java/ch/p
 ## JavaMenu
 
 [JavaMenu](https://wiki.freitagsrunde.org/Javakurs/%C3%9Cbungsaufgaben/Javamenue)
-Die Lösung zu dieser Aufgabe ist zu finden unter:[JavaMenu](src/main/java/ch/plebsapps/javamenu/JavaMenu.java).
+Die Lösung zu dieser Aufgabe ist zu finden unter:[JavaMenu](src/main/java/ch/plebsapps/uebungsaufgaben/javamenu/JavaMenu.java).
 Die dazugehörige Klasse Terminal unter [Terminal](src/main/java/ch/plebsapps/uebungsaufgaben/javamenu/Terminal.java).
 
 ## Verschachtelte Schleifen
