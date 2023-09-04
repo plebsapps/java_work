@@ -9,9 +9,9 @@ public class KlasseStringBuilder {
         //sbInsert();
         //sbReplace();
         //sbAppendAppend();
-        //sbKapazität();
+        sbKapazität();
         //sbKapazitätAtStart();
-        sbKapazitätTrim();
+        //sbKapazitätTrim();
     }
 
     private static void sbKapazitätTrim() {
@@ -49,8 +49,9 @@ public class KlasseStringBuilder {
         sb.append(123456789012345L);
         System.out.println(sb.length());
         System.out.println(sb.capacity());
-
-
+        sb.append(123456789012345L);
+        System.out.println(sb.length());
+        System.out.println(sb.capacity());
     }
 
     private static void sbAppendAppend() {

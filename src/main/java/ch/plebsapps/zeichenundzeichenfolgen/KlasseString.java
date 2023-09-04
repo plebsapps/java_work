@@ -9,7 +9,7 @@ public class KlasseString {
         //ueberpruefung();
         //zeichenzugriff();
         //zeichenIndex();
-        //zeichenIndexVonRechts();
+        zeichenIndexVonRechts();
         //vergleichVonStrings();
         //stringVerbinden();
         //stringUpperCase();
@@ -18,11 +18,11 @@ public class KlasseString {
         //stringZerschneiden();
         //stringMatches();
         //stringSubString();
-        StringStartEndWith();
+        //stringStartEndWith();
 
     }
 
-    private static void StringStartEndWith() {
+    private static void stringStartEndWith() {
         System.out.println("Hallo Welt".startsWith("Hall"));
         System.out.println("Hallo Welt".startsWith("Welt"));
         System.out.println("Hallo Welt".endsWith("Welt"));
