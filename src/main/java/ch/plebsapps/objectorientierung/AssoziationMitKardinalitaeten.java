@@ -3,7 +3,7 @@ package ch.plebsapps.objectorientierung;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AssoziationMitKardinalitäten {
+public class AssoziationMitKardinalitaeten {
     public static void main(String[] args) {
         // Erstellen einer Bibliothek
         Library library = new Library("Stadtbibliothek");
