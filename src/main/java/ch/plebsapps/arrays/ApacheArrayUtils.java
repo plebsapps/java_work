@@ -6,7 +6,7 @@ import org.apache.commons.lang3.ArraySorter;
 import java.util.Arrays;
 
 /**
- * Wichtig  ist im File build.gradle folgendes einzutragen:
+ * Wichtig ist im File build.gradle folgendes einzutragen:
  * dependencies {
  *     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
  * }
