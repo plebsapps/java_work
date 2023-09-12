@@ -3,23 +3,44 @@ package ch.plebsapps.arrays;
 
 import java.util.Arrays;
 
+
+
 public class ArraysKlasse {
     public static void main(String[] args) {
 
-        char2DimArray();
-        char2DimArray2();
-        triangle();
-        drehen90();
-        cloneTest();
-        copyArray();
-        arrayToString();
-        arrayCompare();
-        arrayBinarySearch();
-        arraysCopy();
-        arraysFill();
-        arraysMismatch();
-        arrayEquals();
+        //char2DimArray();
+        //char2DimArray2();
+        //triangle();
+        //drehen90();
+        //cloneTest();
+        //copyArray();
+        //arrayToString();
+        //arrayCompare();
+        //arrayBinarySearch();
+        //arraysCopy();
+        //arraysFill();
+        //arraysMismatch();
+        //arrayEquals();
+        binarySearchTest();
+
     }
+
+    private static void binarySearchTest() {
+
+        int[] ints = {-9, 14, 37, 102};
+        System.out.println(A.exists(ints, 102)); // true
+        System.out.println(A.exists(ints, 36)); // false
+
+    }
+
+    class A {
+        static boolean exists(int[] ints, int t) {
+            Arrays.sort(ints);
+            System.out.println(Arrays.binarySearch(ints, t));
+            return true;
+        }
+    }
+
 
     public static void arrayEquals(){
         int[] numbers1 = {12, 34, 56};
