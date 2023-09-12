@@ -1,3 +1,5 @@
+package ch.plebsapps.besonderetypen;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -18,8 +20,8 @@ public class IterableAndIterator {
         for (Toaster toaster : toasters) {
             System.out.println(toaster);
             // Ausgabe klasse ist leer daher nur die Referenz z.B:
-            // Toaster@4617c264
-            // Toaster@36baf30c
+            // ch.plebsapps.besonderetypen.Toaster@4617c264
+            // ch.plebsapps.besonderetypen.Toaster@36baf30c
         }
     }
 
