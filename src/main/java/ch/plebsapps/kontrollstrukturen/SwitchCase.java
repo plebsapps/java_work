@@ -7,7 +7,6 @@ public class SwitchCase {
         switchString();
         swichStringYield();
         switchWithYield();
-
    }
 
     private static void swichStringYield() {
