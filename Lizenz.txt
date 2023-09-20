@@ -1,0 +1,10 @@
+
+
+Lizenz für plebsapps
+
+Copyright (c) 2023, plebsapps
+
+Hiermit wird jeder Person, die eine Kopie dieser Software und den zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, die Software ohne Einschränkung zu nutzen, inklusive und ohne Einschränkung der Rechte zur Nutzung, zum Kopieren, Ändern, Zusammenfügen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software und Personen, denen die Software zur Verfügung gestellt wird, dies unter den folgenden Bedingungen zu tun:
+
+Der obige Copyright-Hinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
+DIE SOFTWARE WIRD "WIE SIE IST" ZUR VERFÜGUNG GESTELLT, OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL HAFTET DER URHEBER ODER COPYRIGHT-INHABER FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNG, OB IN EINER KLAGE AUF VERTRAG, UNERLAUBTE HANDLUNG ODER ANDERWEITIG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN GESCHÄFTEN MIT DER SOFTWARE ERGEBEN.
