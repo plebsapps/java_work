@@ -71,5 +71,4 @@ public class LockObjects {
         executor.submit(runnable);
         executor.shutdown();
     }
-
 }
