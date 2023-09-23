@@ -1,9 +1,6 @@
 package ch.plebsapps.arrays;
 
-
 import java.util.Arrays;
-
-
 
 public class ArraysKlasse {
     public static void main(String[] args) {
@@ -22,15 +19,12 @@ public class ArraysKlasse {
         //arraysMismatch();
         //arrayEquals();
         binarySearchTest();
-
     }
 
     private static void binarySearchTest() {
-
         int[] ints = {-9, 14, 37, 102};
         System.out.println(A.exists(ints, 102)); // true
         System.out.println(A.exists(ints, 36)); // false
-
     }
 
     class A {
@@ -40,7 +34,6 @@ public class ArraysKlasse {
             return true;
         }
     }
-
 
     public static void arrayEquals(){
         int[] numbers1 = {12, 34, 56};
@@ -76,7 +69,6 @@ public class ArraysKlasse {
         String[] names2 = Arrays.copyOf(names1, 2);
 
         System.out.println(Arrays.toString(names2));
-
 
         //copyOfRange
         String[] names3 = Arrays.copyOfRange(names1, 1,3);
@@ -135,12 +127,10 @@ public class ArraysKlasse {
         Sprich an stelle 4 im Index müsste "Georg" eingefügt werden. -> (-5 +1) * -1
         Index = (Ergebnis + 1) * -1   */
 
-
         Arrays.sort(names);
         System.out.println("Search:" + Arrays.binarySearch(names,"Balli"));
         System.out.println(Arrays.toString(names));
         // Die Ausgabe ist 2, weil das Element an Index stelle 2 zu finden ist.
-
 
         Arrays.sort(names);
         System.out.println("Search:" + Arrays.binarySearch(names, 0, 2,"Andru"));
@@ -209,7 +199,6 @@ public class ArraysKlasse {
     }
 
     public static void triangle(){
-
         int [][] triangle = new int[5][];
 
         triangle[0] = new int[]{1};
@@ -240,4 +229,3 @@ public class ArraysKlasse {
         System.out.println(zeichen.length);
     }
 }
-

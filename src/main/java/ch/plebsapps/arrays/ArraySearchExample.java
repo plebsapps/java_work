@@ -32,7 +32,3 @@ public class ArraySearchExample {
         return null; // Wert nicht gefunden
     }
 }
-
-
-
-
