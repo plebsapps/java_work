@@ -1,6 +1,8 @@
 package ch.plebsapps.thread;
 
 import java.time.LocalTime;
+import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
@@ -20,6 +22,7 @@ public class LockObjects {
         Runnable runnable = () -> {
             String now = LocalTime.now().toString();
             try {
+                //TODO lock.lock();
                 lock.lock();
                 for (int i = 0; i < now.length(); i++) {
                     sb.append(now.charAt(i));
@@ -33,6 +36,7 @@ public class LockObjects {
                 // WICHTIG das man das unlock auf jeden fall ausführt, deshalb muss es auch in ein finnaly
                 // ***************************
                 lock.unlock();
+                //TODO lock.unlock();
             }
         };
 

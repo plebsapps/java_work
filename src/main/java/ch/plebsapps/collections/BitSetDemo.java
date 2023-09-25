@@ -10,6 +10,8 @@ import java.util.BitSet;
  */
 public class BitSetDemo {
     public static void main( String[] args ) {
+        //TODO BitSet
+
         BitSet bitSet = new BitSet();
         Customer c1 = new Customer();
         c1.id = 12;

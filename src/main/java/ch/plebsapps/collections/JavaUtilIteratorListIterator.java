@@ -44,6 +44,8 @@ public class JavaUtilIteratorListIterator {
     }
 
     private static void listIteratorAndRemoveDemo() {
+        //TODO LinkedList
+
         List<Integer> numbers = new LinkedList<>();
         Collections.addAll( numbers, 1, 34, 5, -1, 34, -22 );
         Iterator<Integer> iterator = numbers.iterator();

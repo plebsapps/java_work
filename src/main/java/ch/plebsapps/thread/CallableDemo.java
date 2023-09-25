@@ -1,5 +1,8 @@
 package ch.plebsapps.thread;
 
+//TODO Callable
+
+
 import java.util.concurrent.*;
 
 public class CallableDemo {
@@ -18,6 +21,8 @@ public class CallableDemo {
         Callable<String> callable = new Caller("ReverseCaller");
         ExecutorService service = Executors.newCachedThreadPool();
         Future<String> future = service.submit(callable);
+
+        //TODO Future Objekt
 
         try {
             System.out.println(future.get(1, TimeUnit.SECONDS));

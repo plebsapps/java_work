@@ -17,6 +17,7 @@ public class Application {
 
         // Eine HashMap für Namen und Alter erstellen
         Map<String, Integer> namenAlterMap = new HashMap<>();
+        //TODO HashMap
 
         // Daten zur HashMap hinzufügen
         namenAlterMap.put("Alice", 25);

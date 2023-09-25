@@ -19,6 +19,10 @@ public class Queues {
       |
      */
 
+        //TODO Queue
+
+        //TODO Degues
+
         Queue<String> queue = new LinkedList<>();
         queue.offer( "Heinz" );
         queue.offer( "Eva" );

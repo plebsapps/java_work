@@ -62,6 +62,8 @@ public class JavaUtilSet {
         TreeSet<String> strings = new TreeSet<>( String.CASE_INSENSITIVE_ORDER );
         strings.addAll( Arrays.asList( "abc", "ABC", "DEF", "def" ) );
         System.out.println( strings ); // [abc, DEF]
+
+        //TODO TreeSet
     }
 
     private static void navigableSet() {
@@ -102,7 +104,7 @@ public class JavaUtilSet {
     }
 
     private static void hashSetDemo() {
-
+        //TODO HashSet
         Set<Location> set = new HashSet<>();
         set.add(new Location(1,2));
         set.add(new Location(1,3));
