@@ -1,0 +1,16 @@
+In Java gibt es bereits vorgefertigte Implementierungen einer verketteten Liste.
+Daher muss man sie normalerweise nicht selbst programmieren.
+Diese Implementierung ist als LinkedList in der Java Standardbibliothek verfügbar
+und ist Teil des Java Collection Frameworks.
+
+    // LinkedList
+    /*
+            +-------+       +-------+       +-------+
+    +------>|       +------>|       +------>|       |
+            |   A   |       |   B   |       |   C   |
+    <-------+       |<------+       |<------+       |
+            +-------+       +-------+       +-------+
+     */
+
+
+Aber das soll ja nur eine Übung sein :-)
