@@ -1,0 +1,9 @@
+In diesem Video wird ein Überblick über die Klasse
+in java.io.* und java.nio.* (nio wurde als ergänzung hinzugefügt)
+gegeben
+
+Die file klasse ist nicht deprecated aber man sollte diese nicht mehr benutzen
+
+TODO Video 142
+
+- java.nio.file
