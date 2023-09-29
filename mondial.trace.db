@@ -1,0 +1,12 @@
+2023-09-29 14:13:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "COUNTRY" nicht gefunden
+Table "COUNTRY" not found; SQL statement:
+SELECT * FROM Country [42102-200]
+2023-09-29 14:23:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "COUNTRY" nicht gefunden
+Table "COUNTRY" not found; SQL statement:
+SELECT * FROM Country [42102-200]
+2023-09-29 14:23:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "COUNTRY" nicht gefunden
+Table "COUNTRY" not found; SQL statement:
+SELECT * FROM Country [42102-200]
