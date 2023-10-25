@@ -25,7 +25,7 @@ class StringPredicate {
         }
     }
 
-    class EndsWithPredicate implements Predicate<String>{
+    class EndsWithPredicate implements Predicate<String> {
         @Override
         public boolean test(String s) {
             return s.endsWith(string);

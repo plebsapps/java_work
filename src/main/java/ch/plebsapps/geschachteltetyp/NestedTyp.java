@@ -38,7 +38,6 @@ public class NestedTyp {
     }
 }
 
-
 class A {
     //Diese Klasse ist Parketsichtbar. Also kann jede klasse in Parket ch.plebsapps.geschachteltetyp diese klasse verwenden.
 

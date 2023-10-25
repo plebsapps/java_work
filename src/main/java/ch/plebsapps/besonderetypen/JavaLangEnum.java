@@ -5,8 +5,8 @@ public class JavaLangEnum{
         // ausgabeEnum();
         // valueOfEnum();
         // forEnum();
-        // dreiMoeglichkeiten();
-        // ausgabedefaultCountry();
+        // dreiVarianten();
+        // ausgabeStandardLand();
         // ausgabeIso2();
         // ausgabeRandomCounty();
         // ausgabeIsoCode();
@@ -14,7 +14,6 @@ public class JavaLangEnum{
     }
 
     private static void enumMitSchnittstelle() {
-
         System.out.println(Country3.USA.isBig());
         System.out.println(Country3.UK.isBig());
         System.out.println(Country3.GERMANY.isBig());
@@ -33,7 +32,7 @@ public class JavaLangEnum{
         System.out.println(Country.random());
     }
 
-    private static void ausgabedefaultCountry() {
+    private static void ausgabeStandardLand() {
         System.out.println(Country.defaultCountry());
     }
 
@@ -42,7 +41,7 @@ public class JavaLangEnum{
         System.out.println(country.getIso());
     }
 
-    private static void dreiMoeglichkeiten() {
+    private static void dreiVarianten() {
         Country germany = Country.GERMANY;
 
         System.out.println(germany);
@@ -102,7 +101,7 @@ enum Country2 {
 }
 
 interface IsBigCountry{
- boolean isBig();
+    boolean isBig();
 }
 
 enum Country3 implements IsBigCountry{

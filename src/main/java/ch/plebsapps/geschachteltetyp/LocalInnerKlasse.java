@@ -11,7 +11,6 @@ public class LocalInnerKlasse {
 
         System.out.println("Compare: " + Arrays.compare(names, names2));
 
-
         class EmptyPredicate implements Predicate<String>{
             @Override
             public boolean test(String s) {
@@ -31,5 +30,4 @@ public class LocalInnerKlasse {
             }
         }
     }
-
 }

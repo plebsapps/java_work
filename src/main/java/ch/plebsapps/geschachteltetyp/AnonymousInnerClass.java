@@ -8,14 +8,10 @@ import java.util.function.Predicate;
 public class AnonymousInnerClass {
 
     public static void main(String[] args) {
-
         //innerKlass();
         //anonymeKlasse();
         anonymeKlasseErweitern();
         System.err.println();
-
-
-
     }
 
     private static void anonymeKlasseErweitern() {
@@ -31,7 +27,6 @@ public class AnonymousInnerClass {
     }
 
     private static void anonymeKlasse() {
-
         // Instanz von BigInteger
         BigInteger big = new BigInteger("123");
         System.out.println(big.getClass());
@@ -40,10 +35,8 @@ public class AnonymousInnerClass {
         BigInteger big2 = new BigInteger("123"){};
         System.out.println(big2.getClass());
 
-
         //class java.math.BigInteger
         //class ch.plebsapps.geschachteltetyp.AnonymousInnerClass$1
-
     }
 
     private static void innerKlass() {
